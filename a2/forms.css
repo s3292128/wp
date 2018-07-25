@@ -1,0 +1,55 @@
+/* Styling for the form on contact page */
+
+fieldset {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgb(238, 238, 238);
+    float: left;
+    width: 40%;
+    overflow: hidden;
+    font-size: 120%;
+    border-radius: 20px;
+
+}
+
+input {
+    background-color: white;
+    margin: 10px;
+    font-size: 120%;
+    width: 90%;
+    height: 40px;
+    border-radius: 8px;
+}
+
+
+input[type=submit].contact {
+    color: whitesmoke;
+    text-shadow: 0 6px 6px #000305;
+    border: none;
+    background-color: #484b4d;
+    text-align: center;
+    border-radius: 8px;
+    width: 90%;
+    padding: 10px;
+    letter-spacing: 1px;
+    box-shadow: 0 6px 6px #000305;
+}
+
+input[type=submit].contact:hover {
+    color: #000305;
+    text-shadow: none;
+    border: none;
+    background-color: #484b4d;
+    text-align: center;
+    border-radius: 8px;
+    width: 90%;
+    padding: 10px;
+    letter-spacing: 1px;
+    box-shadow: none;
+
+}
+
+textarea {
+    width=90%;
+    background-color: white;
+}

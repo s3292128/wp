@@ -1,0 +1,248 @@
+/* Make HTML and body content viewable, layout to fill window */
+
+html,
+body {
+    padding: 20px;
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    box-sizing: border-box;
+
+}
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    min-height: calc(100vh - 40px);
+}
+
+/* Give all semantic body elements uniform layout style */
+
+header,
+
+main,
+footer,
+aside,
+section,
+article,
+details,
+
+
+
+div {
+    margin: 0;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border: none;
+
+
+    background-color: white;
+    width: 100%;
+
+    font-family: 'raleway', sans-serif;
+    font-size: 13px;
+
+
+}
+
+div.main {
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    margin: 0;
+
+
+}
+
+div.gallery {
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid black;
+    float: left;
+    width: auto;
+    overflow: hidden;
+    overflow: hidden;    
+}
+
+div.tool {
+    background-image: url("../media/spanner.jpg");
+    background-repeat: repeat;
+
+}
+
+div.contact {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgb(238, 238, 238);
+    float: left;
+    width: auto;
+    overflow: hidden;
+    font-size: 120%;
+    border-radius: 20px;
+}
+
+div.container {
+    position: relative;
+    width: 100%;
+
+    padding: 0;
+
+    margin: 0 0 -3px 0;
+    height: 600px;
+    overflow: hidden;
+    background-size: cover;
+    background-image: url("media/pretty1.png");
+
+}
+
+div.topRight {
+    position: absolute;
+    top: 60px;
+    right: 25px;
+    border-radius: 45px;
+    background-color: RGB(255, 255, 255, 0.5);
+    font-style: italic;
+
+
+    width: 25%;
+    padding;
+    10px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    -ms-transform: rotate(-20deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-20deg);
+    /* Safari 3-8 */
+}
+
+
+
+
+
+
+main {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+footer {
+    background-color: #363839;
+    font-family: 'Source Code Pro', monospace;
+    padding: 15px;
+    color: whitesmoke;
+    height: auto;
+    overflow: hidden;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header styling  */
+
+header {
+    font-size: 300%;
+    font-weight: bold;
+
+    color: teal;
+    font-family: 'Source Code Pro', monospace;
+
+    background-color: white;
+    Padding: 10px 10px 10px 50px;
+}
+
+header * {
+    vertical-align: middle;
+}
+
+
+
+
+/* Styling for images */
+
+header img {
+    filter: drop-shadow(-1px -1px 3px white);
+    -webkit-filter: drop-shadow(-1px -1px 3px white);
+    margin-right: 40px;
+}
+
+img.mainPic {
+
+    opacity: 0.6;
+    filter: alpha(opacity=50);
+    /* For IE8 and earlier */
+    height: 100%;
+
+}
+
+img.darkLogo {
+
+    float: right;
+
+}
+
+/* Styling for navigation menue */
+
+/* Styling for buttons */
+
+button.mainPageButton {
+    position: absolute;
+    top: 80%;
+    left: 37.5%;
+    color: whitesmoke;
+    text-shadow: 0 6px 6px #000305;
+    border: none;
+    background-color: rgb(72, 75, 77, 0.5);
+    text-align: center;
+    border-radius: 8px;
+    width: 25%;
+    padding: 10px;
+    letter-spacing: 1px;
+    box-shadow: 0 6px 6px #000305;
+    font-size: 250%;
+    cursor: pointer;
+
+}
+
+.mainPageButton:hover {
+
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+span {
+    display: inline-block;
+    width: 25%;
+    font-family: "Roboto Slab";
+    font-size: 17px;
+    min-width: 500px;
+
+
+}
+
+i.icon-teal {
+    color: #bfa039;
+    font-size: 40px;
+    vertical-align: middle;
+}
