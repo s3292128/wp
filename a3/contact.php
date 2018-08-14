@@ -26,8 +26,7 @@
 
 
     </header>
-
-    <nav>
+     <nav>
 
         <!-- link locations: relative to current directory -->
         <ul>
@@ -42,21 +41,72 @@
 
     </nav>
 
+
     <main>
-
-
-        <div class="container">
-
-            <div class="topRight">
-                SPECIALISING in bathroom renovations !!<br> Baths, Sinks, Showers, tiling, <br> skylights, mirrors and more<br> All Area's <br> Port Maquarie<br> Newcastle
-                <br> Taree
-            </div>
-            <a href="contact.html"> <button class='mainPageButton' >Click Here For a Quote</button>  </a>
+        <h1>Request a Quote</h1>
 
 
 
 
-        </div>
+        <form class="contact" action="contact.php" autocomplete="off">
+            <fieldset>
+                <br>
+                <input type="text" name="firstname" placeholder="Put your first name here" autofocus>
+                <br>
+                <br> Phone 1<br>
+                <input type="text" name="PhoneNumber1" placeholder="best contact phone number here" required="required"><br>
+
+                <br>
+                <i class="far fa-envelope"></i>
+
+                <input type="email" name="email" placeholder="put email address here"><br>
+                <br> suburb:
+
+
+                <br>
+                <input type="text" name="suburb" placeholder="&#xf0e0; Search" style="font-family:Arial, FontAwesome" <br> <br> Description of work required:<br>
+                <textarea cols="30" rows="4" name="Address">Description</textarea>
+                <br> <br>
+
+            </fieldset>
+
+            <fieldset>
+                <p> Preferred Method of Contact
+                    <br>
+                    <input type="checkbox" name="Phone" Value="name" /> Phone
+                    <br>
+                    <input type="checkbox" name="email" Value="email" /> Email
+                </p>
+                <br>
+
+
+                <p> Best Contact time
+                    <br>
+                    <input type="checkbox" name="BusinesHours" Value="Businesshours" /> Inside Business Hours
+                    <br>
+                    <input type="checkbox" name="Afterhours" Value="afterhours" /> Outside Business hours
+                </p>
+
+
+
+
+
+            </fieldset>
+
+            <fieldset>
+                <p> Upload any Photos or supporting documents (optional)
+                    <br>
+                    <input type="file" name="documents" />
+                    <input type="submit" value="upload" />
+                    <br>
+                    <br>
+
+
+                    <input class="contact" type="submit" value="Submit">
+
+
+
+            </fieldset>
 
 
 
@@ -64,9 +114,10 @@
 
 
 
+
+        </form>
     </main>
-
-    <footer>
+        <footer>
         <img class="darkLogo" src='media/logoDark.png' alt='Always Renovating Logo' />
         <span><i class="large material-icons icon-teal">done</i> Professional Building Company</span>
         <span><i class="large material-icons icon-teal">done</i> Fully Licensed & Insured</span>
@@ -84,7 +135,4 @@
       
 
     </footer>
-
 </body>
-
-</html>

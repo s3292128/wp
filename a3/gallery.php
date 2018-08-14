@@ -26,7 +26,6 @@
 
 
     </header>
-
     <nav>
 
         <!-- link locations: relative to current directory -->
@@ -41,32 +40,67 @@
         </ul> |
 
     </nav>
-
     <main>
+        <section>
 
 
-        <div class="container">
 
-            <div class="topRight">
-                SPECIALISING in bathroom renovations !!<br> Baths, Sinks, Showers, tiling, <br> skylights, mirrors and more<br> All Area's <br> Port Maquarie<br> Newcastle
-                <br> Taree
+            <div class="gallery">
+
+                <img src="media/Gallery1.jpg" alt="Forest" width="300" height="200">
+
+                <div class="desc"><br><b>brief descriptions of ALL the products / services. </b> </div>
             </div>
-            <a href="contact.html"> <button class='mainPageButton' >Click Here For a Quote</button>  </a>
+
+            <div class="gallery">
+
+                <img src="media/Gallery2.jpg" alt="Cabinet" width="300" height="200">
+
+                <div class="desc"><br><b>brief descriptions of ALL the products / services. </b> </div>
+            </div>
+            <div class="gallery">
+
+                <img src="media/Gallery3.jpg" alt="Cabinet" width="300" height="200">
+
+                <div class="desc"><br><b>brief descriptions of ALL the products / services. </b> </div>
+            </div>
+            <div class="gallery">
+
+                <img src="media/Gallery4.jpg" alt="Cabinet" width="300" height="200">
+
+                <div class="desc"><br><b>brief descriptions of ALL the products / services. </b> </div>
+            </div>
+            <div class="gallery">
+
+                <img src="media/Gallery5.jpg" alt="Cabinet" width="300" height="200">
+
+                <div class="desc"><br><b>brief descriptions of ALL the products / services. </b> </div>
+            </div>
+            <div class="gallery">
+
+                <img src="media/Gallery3.jpg" alt="Cabinet" width="300" height="200">
+
+                <div class="desc"><br><b>brief descriptions of ALL the products / services. </b> </div>
+            </div>
+            <div class="gallery">
+
+                <img src="media/Gallery7.jpg" alt="Cabinet" width="300" height="200">
+
+                <div class="desc"><br><b>brief descriptions of ALL the products / services. </b> </div>
+            </div>
+            <div class="gallery">
+
+                <img src="media/Gallery8.jpg" alt="Cabinet" width="300" height="200">
+
+                <div class="desc"><br><b>brief descriptions of ALL the products / services. </b> </div>
+            </div>
 
 
 
-
-        </div>
-
-
-
-
-
-
+        </section>
 
     </main>
-
-    <footer>
+        <footer>
         <img class="darkLogo" src='media/logoDark.png' alt='Always Renovating Logo' />
         <span><i class="large material-icons icon-teal">done</i> Professional Building Company</span>
         <span><i class="large material-icons icon-teal">done</i> Fully Licensed & Insured</span>
@@ -84,7 +118,6 @@
       
 
     </footer>
-
 </body>
 
 </html>

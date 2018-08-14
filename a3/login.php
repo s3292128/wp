@@ -43,30 +43,25 @@
     </nav>
 
     <main>
-
-
-        <div class="container">
-
-            <div class="topRight">
-                SPECIALISING in bathroom renovations !!<br> Baths, Sinks, Showers, tiling, <br> skylights, mirrors and more<br> All Area's <br> Port Maquarie<br> Newcastle
-                <br> Taree
-            </div>
-            <a href="contact.html"> <button class='mainPageButton' >Click Here For a Quote</button>  </a>
+        <section>
+            <fieldset>
 
 
 
+                <form name="login" action="https://titan.csit.rmit.edu.au/~e54061/wp/processing.php?ref=login" autocomplete="off" method="post">
+                    User name:<br>
+                    <input type="email" name="email"><br><br> User password:<br>
+                    <input type="password" name="password">
 
-        </div>
+                    <input class="contact" type="submit" value="Add" onclick="validateForm()">
+                </form>
 
 
-
-
-
-
+            </fieldset>
+        </section>
 
     </main>
-
-    <footer>
+        <footer>
         <img class="darkLogo" src='media/logoDark.png' alt='Always Renovating Logo' />
         <span><i class="large material-icons icon-teal">done</i> Professional Building Company</span>
         <span><i class="large material-icons icon-teal">done</i> Fully Licensed & Insured</span>
@@ -84,7 +79,6 @@
       
 
     </footer>
-
 </body>
 
 </html>
